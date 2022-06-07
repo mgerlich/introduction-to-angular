@@ -13,9 +13,12 @@ export class HousingListComponent implements OnInit {
   @Output() locationSelectedEvent = new EventEmitter<HousingLocation>();
   selectedLocation: HousingLocation | undefined;
 
-  constructor() { }
+  constructor() { 
+    // nothing to do
+  }
 
   ngOnInit(): void {
+    // nothing to do
   }
 
   searchHousingLocations(searchText: string) {
